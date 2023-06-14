@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+    <title>Проекты</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="clock">
+                <p class="clock__text"></p>
+            </div>
+
+            <div class="theme">
+                <button class="theme__btn">
+                    <img src="./dark.png" alt="" class="theme__img">
+                </button>
+            </div>
+        </div>
+        
+
+        <div class="wrapper">
+            <div class="colors">
+                    <div class="colors__inputs">
+                        <div class="colors__inp">
+                            <label for="">По движению мыши</label>
+                            <input class="colors__input" type="radio" name="color">
+                        </div>
+        
+                        <div class="colors__inp">
+                            <label for="">Рандомный цвет</label>
+                            <input class="colors__input" type="radio" name="color">
+                        </div>
+        
+                        <div class="colors__inp">
+                            <label for="">Рандомный градиент</label>
+                            <input class="colors__input" type="radio" name="color">
+                        </div>
+            
+                    </div>
+                    <div class="colors__box">
+        
+                    </div>
+        
+                    <button class="colors__btn random-color">Рандомный цвет</button>
+                    <button class="colors__btn random-gradient">Рандомный градиент</button>
+            </div>
+
+            <div class="colors-random">
+                <div class="colors-random__box">
+                    <div class="random__box">
+                        <buttom class="random__btn">Нажать</buttom>
+                    </div>
+                    <div class="random__box">
+                        <buttom class="random__btn">Нажать</buttom>
+                    </div>
+                    <div class="random__box">
+                        <buttom class="random__btn">Нажать</buttom>
+                    </div>
+                </div>
+            </div>
+
+            
+
+           
+        </div>
+
+        <div class="wrapper">
+            <div class="calculator">
+                <input type="text" class="calculator__out">
+
+                <div class="calculator__row">
+                    <div class="calculator__num">1</div>
+                    <div class="calculator__num">2</div>
+                    <div class="calculator__num">3</div>
+                    <div class="calculator__num">-</div>
+                </div>
+                
+
+                <div class="calculator__row">
+                    <div class="calculator__num">4</div>
+                    <div class="calculator__num">5</div>
+                    <div class="calculator__num">6</div>
+                    <div class="calculator__num">+</div>
+                </div>
+
+                <div class="calculator__row">
+                    <div class="calculator__num">7</div>
+                    <div class="calculator__num">8</div>
+                    <div class="calculator__num">9</div>
+                    <div class="calculator__num">*</div>
+                </div>
+
+                <div class="calculator__row">
+                    <div class="calculator__num">C</div>
+                    <div class="calculator__num">0</div>
+                    <div class="calculator__num">=</div>
+                    <div class="calculator__num">/</div>
+                </div>
+            </div>
+
+            <div class="inner">
+                <div class="currency-converter">
+                    <select class="converter__select" name="converter" id="">
+                        <option value="USD">Доллар</option>
+                        <option value="EUR">Евро</option>
+                        <option value="GBP">Фунты стерлингов</option>
+                    </select>
+                    <input type="text" name="converter" class="converter__input">
+                    <p class="converter__out">Вывод: <span>0</span> рублей</p>
+                </div>
+    
+                <div class="search">
+                    <input type="text" class="search__input">
+                    <ul class="search__list"></ul>
+                </div>
+            </div>
+           
+
+            <div class="likes">
+                <div class="likes__wrap">
+                    <button class="likes__btn like">
+                        <img src="./like.png" alt="" class="likes__img">
+                    </button>
+                    <p class="likes__text">0</p>
+                </div>
+                <div class="likes__wrap">
+                    <button class="likes__btn dis">
+                        <img src="./dislike.png" alt="" class="likes__img">
+                    </button>
+                    <p class="likes__text">0</p>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+   
+</body>
+</html>

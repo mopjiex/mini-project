@@ -1,0 +1,271 @@
+body {
+    background-color: #B0E2FF; 
+    font-family: 'Comfortaa', cursive;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.clock__text {
+    font-size: 22px;
+    width: 175px;
+}
+
+.theme__btn {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all .3s;
+}
+
+.theme__btn:hover {
+    background-color: #ddd;
+}
+
+
+.theme__img {
+    width: 20px;
+    height: 20px;
+}
+
+.wrapper:nth-child(1) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.wrapper:last-child {
+    padding-bottom: 30px;
+    justify-content: center;
+    gap: 0 100px;
+    align-items: center;
+}
+
+.colors__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    margin-bottom: 10px;
+}
+
+.colors__inp {
+    width: 220px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colors__input {
+    width: 15px;
+    height: 15px;
+}
+.colors__box {
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.colors__btn {
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: all .3s;
+}
+
+.colors__btn:hover {
+    background-color: #ddd;
+}
+
+.colors-random {
+    margin: 0 auto;
+}
+    
+.colors-random__box {
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+    
+.random__btn {
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ddd;
+    display: block;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s;
+}
+
+.random__btn:hover {
+    background-color: #fff;
+}
+    
+.random__btn:active {
+    background-color: #c0c0c0;
+}
+
+.random__box {
+    width: 200px;
+    border-left: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.random__box:nth-child(1) {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.random__box:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+    
+.random__box:nth-child(1) {
+    border: none;
+}
+    
+.calculator {
+    padding-top: 20px;
+
+}
+
+.calculator__row:last-child(1) {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.calculator__out {
+    width: 260px;
+    height: 65px;
+    border: none;
+    font-size: 22px;
+    padding: 5px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.calculator__row {
+    display: flex;
+    border-radius: 8px;
+}
+
+.calculator__num {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+    transition: all .3s;
+}
+
+.calculator__num:hover {
+    background-color: #ddd;
+}
+
+.currency-converter {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.converter__select,
+.converter__input {
+    padding: 5px;
+    height: 35px;
+}
+
+.converter__input {
+    width: 100px;
+}
+
+.search__input {
+    width: 202px;
+    height: 30px;
+    padding: 10px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.search__list {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    font-size: 18px;
+    overflow: auto;
+}
+
+.search__list-item {
+    padding-left: 5px;
+
+}
+
+.likes__wrap {
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+    width: 70px;
+}
+
+.likes__btn {
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all .3s;
+}
+
+.likes__btn:hover {
+    transform: scale(1.1);
+}
+
+.likes__btn:active {
+    transform: scale(1.4);
+}
+
+.likes__img {
+    width: 30px;
+    height: 30px;
+}
+
+.likes__wrap:last-child .likes__img {
+    transform: rotate(180deg);
+}
+
+.likes__text {
+    font-size: 22px;
+}
+
